@@ -33,4 +33,5 @@ As a long time listener of the Tim Ferriss show, I have especially enjoyed episo
 
 
 
-## Visualization
+## Learning Outcomes
+Far from the results I had imagined when I thought up the project, I at least have a nice list of words that I can work into my vocabulary. I got a lot of good practice scraping and cleaning data, so to that end this was a very valuable project. 
