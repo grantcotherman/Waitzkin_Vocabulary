@@ -36,14 +36,33 @@ Afterward, I removed duplicates that could have crept in, sorted the new list to
 
 For the most part, each episode followed that process.
 
-
-
 ## Cleaning
+On a separate python file, I read in and combined the .txt files to make one big string, and then split it by spaces so each word would be different string. 
 
+![Screenshot 2023-03-16 210932](https://user-images.githubusercontent.com/94634170/225786609-c7421158-1d9b-4239-9238-2a59d3ea4554.png)
+
+Next, I made all words lowercase to ensure that duplicates are removed, removed numbers from the list (some still remained), and removed periods, commas, exclamations, etc. from the strings. Afterwards, I removed duplication.
+
+![Screenshot 2023-03-16 211211](https://user-images.githubusercontent.com/94634170/225786935-899216c4-9152-4302-9024-3d7e2f34979e.png)
 
 ## Reduction
+After the set of words was clean and duplicates were removed, I began to create lists of increasingly less common words. First, I checked to make sure that the words were indeed words as there were some typos in the transcript. 
 
+![Screenshot 2023-03-16 211505](https://user-images.githubusercontent.com/94634170/225787229-4022f1d9-fd42-4d6e-824a-d31ea603fcc1.png)
+
+This resulted in a real word set of 3251 distinct words.
+
+Next, I removed the words that were in a list of top 10,000 used words.
+![Screenshot 2023-03-16 211702](https://user-images.githubusercontent.com/94634170/225787463-9a1e777e-8077-4090-a987-8f57deaf6416.png)
+This resulted in a remaining 983 words.
+
+Finally, I utilized a GRE vocabulary set of over 1,000 words. Since the GRE is notorious for using obscure and very uncommon words I figured this would serve as dataset to tease out the more nuanced vocabulary choices.
+
+![Screenshot 2023-03-16 211919](https://user-images.githubusercontent.com/94634170/225787714-96018c5e-16fb-4620-af21-49f1b1438f6e.png)
+
+This resulted in 34 words:
+impeccable, complementary, intrinsic, expedient, complacent, fanciful, correlate, reiterate, mitigate, deliberate, intertwined, affinity, profound, manifest, inclined, polymath, repertoire, strife, eccentric, olfactory, fallacy, disabuse, foil, detachment, predilection, mundane, lionize, virtuoso, resilient, underscore, nuance, propensity, profundity, lethargic
 
 
 ## Learning Outcomes
-Far from the results I had imagined when I thought up the project, I at least have a nice list of words that I can work into my vocabulary. I got a lot of good practice scraping and cleaning data, so to that end this was a very valuable project. 
+This project allowed me to spend a lot more time working with and cleaning large strings of data, but I must admit that I have been overall underwhelmed. I think by utilizing the GRE dataset I probably missed out on some interesting words, but it did serve as a good reduction tool. I did however end up with a few interesting words that I can begin to work into my vocabulary, such as "lionize", "profundity", and "redilection". I would like to do more work using linguistics tools in the future, so I think I'll be able to build on work completed in the is project at a later date. 
